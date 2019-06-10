@@ -1,0 +1,48 @@
+mat-sidenav-container {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+mat-toolbar {
+  background-color: white;
+
+  padding: 0px 100px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.sidenavlink {
+  text-decoration: none;
+  list-style: none;
+}
+
+.sidenavlinks {
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+mat-toolbar-row {
+}
+.menuitems {
+}
+
+.menuitems li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menuitems li a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo img {
+  max-width: 250px;
+  width: 90%;
+}

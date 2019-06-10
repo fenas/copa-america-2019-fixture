@@ -1,0 +1,55 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 30px;
+}
+
+table.mat-table {
+  width: 70%;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+}
+
+.flagspan {
+  /* padding: 5px; */
+}
+
+.names {
+  padding: 20px;
+}
+
+.homeName,
+.awayName {
+  padding-left: 5px;
+}
+
+.firstLine,
+.secondLine {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* .location1 {
+  width: 20px;
+}
+
+.location2 {
+  width: 20px;
+}
+.location3 {
+  width: 20px;
+} */
